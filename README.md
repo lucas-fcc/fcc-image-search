@@ -26,7 +26,7 @@
 #### Output:
 ```json
 [{
-    "term": "cats"
+    "term": "cats",
     "when": "2017-05-05T19:12:12.388Z"
 }]
 ```
