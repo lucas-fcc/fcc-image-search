@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Timestamp Microservice - FreeCodeCamp</title>
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- AWESOME ICONS -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- FONT-STYLE -->
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"> 
+
+	<!-- OWN CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container">
+		
+		<div class="row">
+			<h1 class="text-center">
+				Image Search Abstraction Layer
+				<p class="lead">FreeCodeCamp</p>
+			</h1>
+		</div>
+
+		<div class="row">
+			
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				
+				<!-- panel -->
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+						<h3>Search Example:</h3>
+
+						<dl>
+							<dt>Input</dt>
+							<dd>
+								<a href="/search/cats?offset=1" target="_blank">
+									<code>https://fcc-timestamp.gomix.me/search/cats?offset=1</code>
+								</a>
+							</dd>
+
+							<dt>Output</dt>
+							<dd>
+                                <pre>
+[{
+	url: "http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg",
+	snippet: "Cat Behavior: 17 Things Your Cat Wants to Tell You | Reader's Digest",
+	thumbnail: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQjPlK7k97vKZWvnvSXAKFErMI4mWXsHZ1goZbs-BSLAVDXtvLY3o_REn0",
+	context: "http://www.rd.com/advice/pets/how-to-depre-your-cats-behavior/"
+}]
+                                </pre>
+							</dd>
+						</dl>
+
+						<h3>Consult History Example:</h3>
+
+						<dl>
+                            <dt>Input</dt>
+                            <dd>
+                                <a href="/history" target="_blank">
+                                    <code>https://fcc-timestamp.gomix.me/history</code>
+                                </a>
+                            </dd>
+
+                            <dt>Output</dt>
+							<dd>
+								<pre>
+[{
+    term: "cats"
+    when: "2017-05-05T19:12:12.388Z"
+}]
+                                </pre>
+							</dd>
+						</dl>
+
+					</div>
+				</div>
+				<!-- panel -->
+
+			</div>
+
+		</div>
+
+		<footer class="row">
+			<ul class="list-inline text-center">
+				<li>
+				<a href="https://twitter.com/baiaku22" target="_blank">
+					<i class="fa fa-twitter fa-fw fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://br.linkedin.com/in/lucas-rodrigues-moura-823574a7" target="_blank">
+					<i class="fa fa-linkedin fa-fw fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://github.com/lucas-rodrigues20" target="_blank">
+					<i class="fa fa-github-alt fa-fw fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.freecodecamp.com/lucas-rodrigues20" target="_blank">
+					<i class="fa fa-free-code-camp fa-fw fa-2x"></i>
+				</a>
+			</li>
+			</ul>
+			<p class="text-muted text-center">Lucas Rodrigues Moura &copy; 2017</p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
